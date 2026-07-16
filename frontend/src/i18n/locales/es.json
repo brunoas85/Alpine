@@ -48,11 +48,13 @@
     },
     "estimateLabel": "Precio estimado",
     "estimateDisclaimer": "El precio final se confirma después de una visita al lugar.",
-    "submitCta": "Solicitar Esta Cotización"
+    "submitCta": "Solicitar Esta Cotización",
+    "summaryTemplate": "Solicitud de cotización — Servicio: {{service}}, Tamaño: {{size}} pies², Frecuencia: {{frequency}}, Precio estimado: ${{estimate}}."
   },
   "contact": {
     "title": "Contactanos",
     "subtitle": "Contanos sobre tu proyecto y te responderemos a la brevedad.",
+    "prefillNotice": "Trasladamos los datos de tu cotización aquí abajo — solo agregá tus datos de contacto.",
     "nameLabel": "Nombre completo",
     "emailLabel": "Correo electrónico",
     "phoneLabel": "Teléfono",

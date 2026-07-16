@@ -48,11 +48,13 @@
     },
     "estimateLabel": "Estimated price",
     "estimateDisclaimer": "Final pricing is confirmed after an on-site visit.",
-    "submitCta": "Request This Quote"
+    "submitCta": "Request This Quote",
+    "summaryTemplate": "Quote request — Service: {{service}}, Size: {{size}} sq ft, Frequency: {{frequency}}, Estimated price: ${{estimate}}."
   },
   "contact": {
     "title": "Contact Us",
     "subtitle": "Tell us about your project and we'll get back to you shortly.",
+    "prefillNotice": "We carried over your quote details below — just add your contact info.",
     "nameLabel": "Full name",
     "emailLabel": "Email",
     "phoneLabel": "Phone",

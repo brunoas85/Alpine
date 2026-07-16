@@ -21,12 +21,11 @@ function estimatePrice(size, service, frequency) {
   return Math.max(raw, minimum);
 }
 
-export default function QuoteForm() {
+export default function QuoteForm({ onRequestQuote }) {
   const { t } = useTranslation();
   const [size, setSize] = useState(2000);
   const [service, setService] = useState("mowing");
   const [frequency, setFrequency] = useState("oneTime");
-  const [submitted, setSubmitted] = useState(false);
 
   const estimate = useMemo(
     () => estimatePrice(size, service, frequency),
@@ -35,7 +34,16 @@ export default function QuoteForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setSubmitted(true);
+
+    const summary = t("quote.summaryTemplate", {
+      service: t(`quote.serviceOptions.${service}`),
+      size: size.toLocaleString(),
+      frequency: t(`quote.frequencyOptions.${frequency}`),
+      estimate: estimate.toFixed(0),
+    });
+
+    onRequestQuote?.(summary);
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -117,12 +125,6 @@ export default function QuoteForm() {
           >
             {t("quote.submitCta")}
           </button>
-
-          {submitted && (
-            <p className="text-center text-sm text-forest">
-              {t("contact.successMessage")}
-            </p>
-          )}
         </form>
       </div>
     </section>

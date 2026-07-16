@@ -1,12 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const INITIAL_FORM = { name: "", email: "", phone: "", message: "" };
 
-export default function ContactForm() {
+export default function ContactForm({ prefillMessage }) {
   const { t } = useTranslation();
   const [form, setForm] = useState(INITIAL_FORM);
   const [submitted, setSubmitted] = useState(false);
+
+  useEffect(() => {
+    if (prefillMessage) {
+      setForm((prev) => ({ ...prev, message: prefillMessage }));
+    }
+  }, [prefillMessage]);
 
   const handleChange = (field) => (e) =>
     setForm((prev) => ({ ...prev, [field]: e.target.value }));
@@ -23,6 +29,12 @@ export default function ContactForm() {
         {t("contact.title")}
       </h2>
       <p className="mt-2 text-center text-earth/80">{t("contact.subtitle")}</p>
+
+      {form.message && form.message === prefillMessage && (
+        <p className="mt-4 rounded-lg bg-sand/40 px-4 py-3 text-center text-sm text-earth">
+          {t("contact.prefillNotice")}
+        </p>
+      )}
 
       <form onSubmit={handleSubmit} className="mt-10 space-y-5">
         <div>

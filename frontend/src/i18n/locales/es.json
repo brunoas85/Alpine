@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "quote": "Cotizar",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Paisajismo que respeta el ritmo de la naturaleza",
+    "subtitle": "Mantenimiento de césped estacional, podas y diseño de jardines para hogares de la región.",
+    "cta": "Solicitar Cotización Gratis"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "mowing": {
+      "title": "Corte de Césped",
+      "description": "Corte y bordeado regular para mantener tu césped saludable durante primavera y verano."
+    },
+    "pruning": {
+      "title": "Poda y Recorte",
+      "description": "Poda estructural de árboles y arbustos, programada según la estación correcta."
+    },
+    "beds": {
+      "title": "Diseño de Canteros",
+      "description": "Canteros y bordes personalizados diseñados para tu espacio exterior."
+    },
+    "winter": {
+      "title": "Preparación para el Invierno",
+      "description": "Limpieza de hojas, cobertura y preparación para proteger tu jardín durante el invierno."
+    }
+  },
+  "quote": {
+    "title": "Obtené una Estimación Instantánea",
+    "subtitle": "Respondé algunas preguntas y obtené un precio aproximado para tu proyecto.",
+    "sizeLabel": "Tamaño aproximado del jardín",
+    "sizeUnit": "pies²",
+    "serviceLabel": "Tipo de servicio",
+    "serviceOptions": {
+      "mowing": "Corte de Césped",
+      "pruning": "Poda y Recorte",
+      "beds": "Diseño de Canteros",
+      "winter": "Preparación de Invierno"
+    },
+    "frequencyLabel": "Frecuencia",
+    "frequencyOptions": {
+      "oneTime": "Único",
+      "weekly": "Semanal",
+      "biweekly": "Quincenal"
+    },
+    "estimateLabel": "Precio estimado",
+    "estimateDisclaimer": "El precio final se confirma después de una visita al lugar.",
+    "submitCta": "Solicitar Esta Cotización"
+  },
+  "contact": {
+    "title": "Contactanos",
+    "subtitle": "Contanos sobre tu proyecto y te responderemos a la brevedad.",
+    "nameLabel": "Nombre completo",
+    "emailLabel": "Correo electrónico",
+    "phoneLabel": "Teléfono",
+    "messageLabel": "Mensaje",
+    "submit": "Enviar Mensaje",
+    "successMessage": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto."
+  },
+  "footer": {
+    "tagline": "Alpine Garden & Lawn Services — frescura, orden y naturaleza para tu hogar.",
+    "rights": "Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "errors": {
+    "validation_error": "Uno o más campos son inválidos.",
+    "not_found": "No se encontró el recurso solicitado.",
+    "internal_error": "Algo salió mal. Por favor, intentá de nuevo."
+  },
+  "quote": {
+    "disclaimer": "El precio final se confirma después de una visita al lugar."
+  },
+  "contact": {
+    "received": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto."
+  }
+}

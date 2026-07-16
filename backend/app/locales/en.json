@@ -1,0 +1,13 @@
+{
+  "errors": {
+    "validation_error": "One or more fields are invalid.",
+    "not_found": "The requested resource was not found.",
+    "internal_error": "Something went wrong. Please try again."
+  },
+  "quote": {
+    "disclaimer": "Final pricing is confirmed after an on-site visit."
+  },
+  "contact": {
+    "received": "Thanks! We received your message and will reach out soon."
+  }
+}

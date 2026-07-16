@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "services": "Services",
+    "quote": "Get a Quote",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Landscaping that respects nature's rhythm",
+    "subtitle": "Seasonal lawn care, pruning, and garden design for homes across the region.",
+    "cta": "Request a Free Quote"
+  },
+  "services": {
+    "title": "Our Services",
+    "mowing": {
+      "title": "Lawn Mowing",
+      "description": "Regular mowing and edging to keep your lawn healthy through spring and summer."
+    },
+    "pruning": {
+      "title": "Pruning & Trimming",
+      "description": "Structural pruning for trees and shrubs, timed to the right season."
+    },
+    "beds": {
+      "title": "Garden Bed Design",
+      "description": "Custom flower beds and borders designed to fit your outdoor space."
+    },
+    "winter": {
+      "title": "Winter Prep & Cleanup",
+      "description": "Leaf removal, mulching, and preparation to protect your garden through winter."
+    }
+  },
+  "quote": {
+    "title": "Get an Instant Estimate",
+    "subtitle": "Answer a few questions and get a ballpark price for your project.",
+    "sizeLabel": "Approximate garden size",
+    "sizeUnit": "sq ft",
+    "serviceLabel": "Service type",
+    "serviceOptions": {
+      "mowing": "Lawn Mowing",
+      "pruning": "Pruning & Trimming",
+      "beds": "Garden Bed Design",
+      "winter": "Winter Prep"
+    },
+    "frequencyLabel": "Frequency",
+    "frequencyOptions": {
+      "oneTime": "One-time",
+      "weekly": "Weekly",
+      "biweekly": "Biweekly"
+    },
+    "estimateLabel": "Estimated price",
+    "estimateDisclaimer": "Final pricing is confirmed after an on-site visit.",
+    "submitCta": "Request This Quote"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Tell us about your project and we'll get back to you shortly.",
+    "nameLabel": "Full name",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "messageLabel": "Message",
+    "submit": "Send Message",
+    "successMessage": "Thanks! We received your message and will reach out soon."
+  },
+  "footer": {
+    "tagline": "Alpine Garden & Lawn Services — freshness, order, and nature for your home.",
+    "rights": "All rights reserved."
+  }
+}

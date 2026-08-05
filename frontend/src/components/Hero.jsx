@@ -4,8 +4,9 @@ export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section id="top" className="bg-forest text-offwhite">
-      <div className="mx-auto max-w-5xl px-6 py-24 text-center">
+    <section id="top" className="relative bg-forest text-offwhite overflow-hidden">
+      <img src="/AlpineLogoBlack.png" alt="" className="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none" />
+      <div className="relative mx-auto max-w-5xl px-6 py-24 text-center">
         <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
           {t("hero.title")}
         </h1>

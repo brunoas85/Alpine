@@ -5,13 +5,13 @@ export default function Header() {
   const { t } = useTranslation();
 
   return (
-    <header className="sticky top-0 z-10 border-b border-forest/10 bg-offwhite/95 backdrop-blur">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <a href="#top" className="text-lg font-semibold tracking-tight text-forest">
-          Alpine
+    <header className="sticky top-0 z-10 bg-transparent">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-1">
+        <a href="#top">
+          <img src="/AlpineLogoBlack.png" alt="Alpine" className="h-[140px] w-auto" />
         </a>
 
-        <nav className="hidden items-center gap-6 text-sm font-medium text-earth sm:flex">
+        <nav className="hidden items-center gap-6 text-sm font-medium text-gray-700 sm:flex">
           <a href="#services" className="hover:text-forest">
             {t("nav.services")}
           </a>

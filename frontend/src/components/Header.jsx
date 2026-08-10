@@ -5,7 +5,7 @@ export default function Header() {
   const { t } = useTranslation();
 
   return (
-    <header className="sticky top-0 z-10 bg-transparent">
+    <header className="sticky top-0 z-10 border-b border-forest/10 bg-offwhite/95 backdrop-blur">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-1">
         <a href="#top">
           <img src="/AlpineLogoBlack.png" alt="Alpine" className="h-[140px] w-auto" />

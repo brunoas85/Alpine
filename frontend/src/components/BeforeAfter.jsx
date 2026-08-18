@@ -2,21 +2,9 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const EXAMPLES = [
-  {
-    key: "mowing",
-    before: "linear-gradient(135deg, #8a7a52, #6b5b3d)",
-    after: "linear-gradient(135deg, #4f7942, #2d5a27)",
-  },
-  {
-    key: "beds",
-    before: "linear-gradient(135deg, #7a6248, #5c4a3a)",
-    after: "linear-gradient(135deg, #d9cba3, #4f7942)",
-  },
-  {
-    key: "winter",
-    before: "linear-gradient(135deg, #9c8a5e, #7a6b4a)",
-    after: "linear-gradient(135deg, #2d5a27, #1f3f1c)",
-  },
+  { key: "mowing", before: "/cesped-before.png", after: "/cesped-after.png" },
+  { key: "beds", before: "/cantero-before.png", after: "/cantero-after.png" },
+  { key: "winter", before: "/before-winter.svg", after: "/after-winter.svg" },
 ];
 
 function BeforeAfterSlider({ example }) {
@@ -28,13 +16,24 @@ function BeforeAfterSlider({ example }) {
       <div className="relative aspect-[4/3] select-none overflow-hidden">
         <div
           className="absolute inset-0 flex items-end p-3 text-xs font-semibold text-offwhite/90"
-          style={{ background: example.before }}
+          style={{
+            backgroundImage: `url(${example.before})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            textShadow: "0 1px 3px rgba(0,0,0,0.5)",
+          }}
         >
           {t("beforeAfter.before")}
         </div>
         <div
           className="absolute inset-0 flex items-end justify-end p-3 text-xs font-semibold text-offwhite/90"
-          style={{ background: example.after, clipPath: `inset(0 0 0 ${pos}%)` }}
+          style={{
+            backgroundImage: `url(${example.after})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            clipPath: `inset(0 0 0 ${pos}%)`,
+            textShadow: "0 1px 3px rgba(0,0,0,0.5)",
+          }}
         >
           {t("beforeAfter.after")}
         </div>

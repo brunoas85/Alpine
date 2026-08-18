@@ -1,6 +1,7 @@
 {
   "nav": {
     "services": "Servicios",
+    "gallery": "Antes y Después",
     "quote": "Cotizar",
     "contact": "Contacto"
   },
@@ -27,6 +28,14 @@
       "title": "Preparación para el Invierno",
       "description": "Limpieza de hojas, cobertura y preparación para proteger tu jardín durante el invierno."
     }
+  },
+  "beforeAfter": {
+    "title": "Antes y Después",
+    "subtitle": "Deslizá para ver la transformación de nuestros trabajos.",
+    "before": "Antes",
+    "after": "Después",
+    "sliderLabel": "Deslizar para comparar antes y después",
+    "placeholderNotice": "Imágenes ilustrativas — próximamente fotos reales de nuestros trabajos."
   },
   "quote": {
     "title": "Obtené una Estimación Instantánea",
@@ -64,6 +73,10 @@
   },
   "footer": {
     "tagline": "Alpine Garden & Lawn Services — frescura, orden y naturaleza para tu hogar.",
+    "linksTitle": "Enlaces",
+    "contactTitle": "Contacto",
+    "followTitle": "Seguinos",
+    "location": "Aspen, Colorado, EE. UU.",
     "rights": "Todos los derechos reservados."
   }
 }

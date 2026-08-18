@@ -1,6 +1,7 @@
 {
   "nav": {
     "services": "Services",
+    "gallery": "Before & After",
     "quote": "Get a Quote",
     "contact": "Contact"
   },
@@ -27,6 +28,14 @@
       "title": "Winter Prep & Cleanup",
       "description": "Leaf removal, mulching, and preparation to protect your garden through winter."
     }
+  },
+  "beforeAfter": {
+    "title": "Before & After",
+    "subtitle": "Drag to see the transformation on our projects.",
+    "before": "Before",
+    "after": "After",
+    "sliderLabel": "Drag to compare before and after",
+    "placeholderNotice": "Illustrative images — real photos of our work coming soon."
   },
   "quote": {
     "title": "Get an Instant Estimate",
@@ -64,6 +73,10 @@
   },
   "footer": {
     "tagline": "Alpine Garden & Lawn Services — freshness, order, and nature for your home.",
+    "linksTitle": "Links",
+    "contactTitle": "Contact",
+    "followTitle": "Follow us",
+    "location": "Aspen, Colorado, USA",
     "rights": "All rights reserved."
   }
 }

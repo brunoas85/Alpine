@@ -1,9 +1,15 @@
 {
   "nav": {
     "services": "Services",
+    "about": "About",
+    "gardening": "Gardening",
+    "indoorGardening": "Indoor",
+    "photoGallery": "Gallery",
     "gallery": "Before & After",
+    "blog": "Blog",
     "quote": "Get a Quote",
-    "contact": "Contact"
+    "contact": "Contact",
+    "menuLabel": "Menu"
   },
   "hero": {
     "title": "Landscaping that respects nature's rhythm",
@@ -27,6 +33,88 @@
     "winter": {
       "title": "Winter Prep & Cleanup",
       "description": "Leaf removal, mulching, and preparation to protect your garden through winter."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "body": "Alpine Garden & Lawn Services is a team of local landscapers who care for lawns and gardens the way we'd care for our own. We follow the seasons — not a one-size-fits-all schedule — so every visit does exactly what your yard needs, from spring clean-ups to winter prep.",
+    "badge1": "Locally owned",
+    "badge2": "Seasonal expertise",
+    "badge3": "Bilingual service"
+  },
+  "gardening": {
+    "title": "Gardening & Landscaping",
+    "subtitle": "Full outdoor care, broken down into what your property actually needs.",
+    "items": {
+      "lawnCare": {
+        "title": "Lawn Care Program",
+        "description": "Ongoing mowing, edging, and feeding to keep your turf dense and healthy all season."
+      },
+      "landscapeDesign": {
+        "title": "Garden Design & Build",
+        "description": "New beds, borders, and hardscape features designed and installed from scratch."
+      },
+      "pruning": {
+        "title": "Pruning & Tree Trimming",
+        "description": "Structural pruning and controlled tree work, timed to each species' season."
+      },
+      "clearing": {
+        "title": "Brush Clearing",
+        "description": "Overgrowth and weed clearing to reclaim neglected areas of your property."
+      },
+      "plantHealth": {
+        "title": "Plant Health Treatments",
+        "description": "Diagnosis and treatment for pests, disease, and soil issues."
+      },
+      "irrigation": {
+        "title": "Automatic Irrigation",
+        "description": "Design and installation of sprinkler and drip systems tuned to your landscape."
+      }
+    }
+  },
+  "indoorGardening": {
+    "title": "Indoor Plants",
+    "subtitle": "Bringing the same care indoors, for homes and offices.",
+    "items": {
+      "decor": {
+        "title": "Interior Plant Styling",
+        "description": "Curated indoor greenery selected and arranged to fit your space and light."
+      },
+      "maintenance": {
+        "title": "Indoor Plant Care",
+        "description": "Scheduled watering, pruning, and health checks for your indoor plants."
+      },
+      "advice": {
+        "title": "Plant Selection Advice",
+        "description": "Guidance on the right species for your rooms, light levels, and care routine."
+      },
+      "planters": {
+        "title": "Custom Planters",
+        "description": "Planter and pot sourcing to match your interior style."
+      }
+    }
+  },
+  "photoGallery": {
+    "title": "Gallery",
+    "subtitle": "A look at our work in the field.",
+    "placeholderNotice": "We're building our photo gallery — check back soon for real shots of our projects."
+  },
+  "blog": {
+    "title": "Tips & Recommendations",
+    "subtitle": "Seasonal advice from our crew to keep your garden thriving.",
+    "posts": {
+      "winterPrep": {
+        "title": "Getting Your Garden Ready for Winter",
+        "excerpt": "The three things to do before the first frost hits — and why timing matters more than effort."
+      },
+      "summerWatering": {
+        "title": "A Smarter Summer Watering Schedule",
+        "excerpt": "How much, how often, and the mistake that quietly kills more lawns than drought does."
+      },
+      "pruningTiming": {
+        "title": "When to Prune (and When to Wait)",
+        "excerpt": "Pruning at the wrong time can cost you a season of growth. Here's the right window for trees and shrubs."
+      }
     }
   },
   "beforeAfter": {

@@ -1,9 +1,15 @@
 {
   "nav": {
     "services": "Servicios",
+    "about": "Nosotros",
+    "gardening": "Jardinería",
+    "indoorGardening": "Interior",
+    "photoGallery": "Galería",
     "gallery": "Antes y Después",
+    "blog": "Blog",
     "quote": "Cotizar",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "menuLabel": "Menú"
   },
   "hero": {
     "title": "Paisajismo que respeta el ritmo de la naturaleza",
@@ -27,6 +33,88 @@
     "winter": {
       "title": "Preparación para el Invierno",
       "description": "Limpieza de hojas, cobertura y preparación para proteger tu jardín durante el invierno."
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "body": "Alpine Garden & Lawn Services es un equipo de jardineros locales que cuida céspedes y jardines como si fueran propios. Trabajamos según la estación del año — no con un calendario genérico — para que cada visita haga exactamente lo que tu jardín necesita, desde la limpieza de primavera hasta la preparación para el invierno.",
+    "badge1": "Negocio local",
+    "badge2": "Expertise estacional",
+    "badge3": "Atención bilingüe"
+  },
+  "gardening": {
+    "title": "Jardinería",
+    "subtitle": "Cuidado exterior completo, desglosado en lo que tu propiedad realmente necesita.",
+    "items": {
+      "lawnCare": {
+        "title": "Programa de Mantenimiento de Césped",
+        "description": "Corte, bordeado y fertilización continua para un césped denso y saludable durante toda la temporada."
+      },
+      "landscapeDesign": {
+        "title": "Diseño y Obra de Jardines",
+        "description": "Canteros, bordes y elementos de paisajismo diseñados e instalados desde cero."
+      },
+      "pruning": {
+        "title": "Poda y Tala Controlada",
+        "description": "Poda estructural y trabajos de arbolado, programados según la estación de cada especie."
+      },
+      "clearing": {
+        "title": "Desmalezado y Desbroce",
+        "description": "Limpieza de maleza y áreas descuidadas de tu propiedad."
+      },
+      "plantHealth": {
+        "title": "Tratamientos Fitosanitarios",
+        "description": "Diagnóstico y tratamiento de plagas, enfermedades y problemas del suelo."
+      },
+      "irrigation": {
+        "title": "Riego Automático",
+        "description": "Diseño e instalación de sistemas de riego por aspersión y goteo a medida."
+      }
+    }
+  },
+  "indoorGardening": {
+    "title": "Jardinería Interior",
+    "subtitle": "Llevamos el mismo cuidado adentro, para casas y oficinas.",
+    "items": {
+      "decor": {
+        "title": "Decoración con Plantas de Interior",
+        "description": "Selección y disposición de plantas de interior adaptadas a tu espacio y luz."
+      },
+      "maintenance": {
+        "title": "Mantenimiento de Plantas de Interior",
+        "description": "Riego, poda y control de salud programados para tus plantas de interior."
+      },
+      "advice": {
+        "title": "Asesoramiento en Selección de Plantas",
+        "description": "Te ayudamos a elegir las especies ideales según ambiente, luz y cuidado disponible."
+      },
+      "planters": {
+        "title": "Jardineras y Macetas a Medida",
+        "description": "Búsqueda de macetas y jardineras que combinan con tu estilo interior."
+      }
+    }
+  },
+  "photoGallery": {
+    "title": "Galería",
+    "subtitle": "Un vistazo a nuestro trabajo en el campo.",
+    "placeholderNotice": "Estamos armando nuestra galería de fotos — volvé pronto para ver imágenes reales de nuestros proyectos."
+  },
+  "blog": {
+    "title": "Recomendaciones",
+    "subtitle": "Consejos estacionales de nuestro equipo para que tu jardín se mantenga saludable.",
+    "posts": {
+      "winterPrep": {
+        "title": "Preparar tu jardín para el invierno",
+        "excerpt": "Las tres cosas que hay que hacer antes de la primera helada — y por qué el momento importa más que el esfuerzo."
+      },
+      "summerWatering": {
+        "title": "Un riego de verano más inteligente",
+        "excerpt": "Cuánto, con qué frecuencia, y el error que mata más céspedes que la sequía."
+      },
+      "pruningTiming": {
+        "title": "Cuándo podar (y cuándo esperar)",
+        "excerpt": "Podar en el momento equivocado te puede costar una temporada de crecimiento. Esta es la ventana correcta para árboles y arbustos."
+      }
     }
   },
   "beforeAfter": {

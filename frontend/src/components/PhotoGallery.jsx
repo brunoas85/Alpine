@@ -1,22 +1,25 @@
 import { useTranslation } from "react-i18next";
 
-const TILE_COUNT = 6;
-
-function ImagePlaceholderIcon() {
-  return (
-    <svg viewBox="0 0 24 24" width="28" height="28" fill="none" aria-hidden="true">
-      <rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" strokeWidth="1.4" />
-      <circle cx="8.5" cy="9.5" r="1.5" stroke="currentColor" strokeWidth="1.4" />
-      <path
-        d="M3 16.5 8 12l3.5 3.2L16 11l5 6"
-        stroke="currentColor"
-        strokeWidth="1.4"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
+const PHOTOS = [
+  "/Galería/alexander-grey-fSlCxR0dnZY-unsplash.webp",
+  "/Galería/annie-spratt-3vFbHoKYltE-unsplash.webp",
+  "/Galería/corina-ardeleanu-sWlxCweDzzs-unsplash.webp",
+  "/Galería/gerome-bruneau-RPmWEtZLh7U-unsplash.webp",
+  "/Galería/glen-carrie-y8dgMhxaoKk-unsplash.webp",
+  "/Galería/irina-iriser-mNz9Pa3tz34-unsplash.webp",
+  "/Galería/jan-canty-KcQuXaHCSPE-unsplash.webp",
+  "/Galería/look-up-look-down-photography--o7ASOHDV9E-unsplash.webp",
+  "/Galería/martin-martz-JjT_7MwREm4-unsplash.webp",
+  "/Galería/mio-ito-DaGIjXNl5oA-unsplash.webp",
+  "/Galería/onehundredseventyfive-Cxr73PWFP_o-unsplash.webp",
+  "/Galería/pankaj-shah-1ff_i7jO-4g-unsplash.webp",
+  "/Galería/petar-tonchev-c-5-QE5kBYk-unsplash.webp",
+  "/Galería/sandie-clarke-q13Zq1Jufks-unsplash.webp",
+  "/Galería/shalev-cohen-uRlnISgCtME-unsplash.webp",
+  "/Galería/tatyana-rubleva-I-GrLHl5I10-unsplash.webp",
+  "/Galería/veronica-reverse-qYwyRF9u-uo-unsplash.webp",
+  "/Galería/yash-mannepalli-9kqc8DrkpHY-unsplash.webp",
+];
 
 export default function PhotoGallery() {
   const { t } = useTranslation();
@@ -29,19 +32,20 @@ export default function PhotoGallery() {
       <p className="mt-2 text-center text-earth/80">{t("photoGallery.subtitle")}</p>
 
       <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3">
-        {Array.from({ length: TILE_COUNT }).map((_, i) => (
+        {PHOTOS.map((src) => (
           <div
-            key={i}
-            className="flex aspect-square items-center justify-center rounded-2xl border border-dashed border-forest/20 bg-white/60 text-forest/30"
+            key={src}
+            className="aspect-square overflow-hidden rounded-2xl border border-forest/10 bg-white/60 shadow-sm"
           >
-            <ImagePlaceholderIcon />
+            <img
+              src={src}
+              alt={t("photoGallery.title")}
+              loading="lazy"
+              className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+            />
           </div>
         ))}
       </div>
-
-      <p className="mt-6 text-center text-xs text-earth/50">
-        {t("photoGallery.placeholderNotice")}
-      </p>
     </section>
   );
 }

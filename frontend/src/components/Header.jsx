@@ -43,8 +43,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-10 border-b border-forest/10 bg-offwhite/95 backdrop-blur">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-2 px-4 py-1 sm:px-6">
-        <a href="#top" className="shrink-0 -ml-2 sm:-ml-[110px]">
-          <AnimatedLogo className="h-16 lg:h-[140px]" />
+        <a href="#top" className="shrink-0 -ml-2 sm:-ml-[100px]">
+          <AnimatedLogo className="h-14 lg:h-[110px]" />
         </a>
 
         <nav className="hidden items-center gap-4 text-sm font-medium text-gray-700 lg:flex xl:gap-6">

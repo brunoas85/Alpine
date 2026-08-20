@@ -96,8 +96,7 @@
   },
   "photoGallery": {
     "title": "Gallery",
-    "subtitle": "A look at our work in the field.",
-    "placeholderNotice": "We're building our photo gallery — check back soon for real shots of our projects."
+    "subtitle": "A look at our work in the field."
   },
   "blog": {
     "title": "Tips & Recommendations",

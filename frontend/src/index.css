@@ -40,7 +40,7 @@ body {
 }
 
 .animate-sway {
-  animation: sway 7s ease-in-out infinite;
+  animation: sway 5s ease-in-out infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {

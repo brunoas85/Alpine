@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="min-h-screen bg-offwhite text-earth">
       <Header />
-      <main>
+      <main className="mt-[10px]">
         <Hero />
         <Services />
         <AboutUs />

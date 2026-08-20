@@ -41,7 +41,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-10 border-b border-forest/10 bg-offwhite/95 backdrop-blur">
+    <header className="sticky top-0 z-10 bg-offwhite/95 backdrop-blur">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-2 px-4 py-1 sm:px-6">
         <a href="#top" className="shrink-0 -ml-2 sm:-ml-[100px]">
           <AnimatedLogo className="h-14 lg:h-[110px]" />
@@ -49,8 +49,13 @@ export default function Header() {
 
         <nav className="hidden items-center gap-4 text-sm font-medium text-gray-700 lg:flex xl:gap-6">
           {NAV_LINKS.map(({ href, key }) => (
-            <a key={href} href={href} className="whitespace-nowrap hover:text-forest">
+            <a
+              key={href}
+              href={href}
+              className="group relative whitespace-nowrap py-1 transition-colors duration-200 hover:text-forest"
+            >
               {t(key)}
+              <span className="absolute inset-x-0 -bottom-0.5 h-0.5 origin-center scale-x-0 bg-forest transition-transform duration-200 ease-out group-hover:scale-x-100" />
             </a>
           ))}
         </nav>
@@ -83,7 +88,7 @@ export default function Header() {
                 <a
                   href={href}
                   onClick={() => setMenuOpen(false)}
-                  className="block rounded-lg px-3 py-2 hover:bg-forest/10 hover:text-forest"
+                  className="block rounded-lg px-3 py-2 transition-colors duration-200 hover:bg-forest/10 hover:text-forest"
                 >
                   {t(key)}
                 </a>

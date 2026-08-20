@@ -12,7 +12,8 @@
     "menuLabel": "Menu"
   },
   "hero": {
-    "title": "Landscaping that respects nature's rhythm",
+    "titleMain": "Landscaping that respects",
+    "titleAccent": "nature's rhythm",
     "subtitle": "Seasonal lawn care, pruning, and garden design for homes across the region.",
     "cta": "Request a Free Quote"
   },

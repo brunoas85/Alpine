@@ -8,6 +8,7 @@
   --color-earth: #4a3b32;
   --color-sand: #d9cba3;
   --font-sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Cormorant Garamond", "Playfair Display", Georgia, serif;
 }
 
 body {

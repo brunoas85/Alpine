@@ -8,8 +8,9 @@ export default function Hero() {
       <img src="/hero.png" alt="" className="absolute inset-0 w-full h-full object-cover pointer-events-none" />
       <div className="absolute inset-0 bg-forest/70" />
       <div className="relative mx-auto max-w-5xl px-6 py-24 text-center">
-        <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-          {t("hero.title")}
+        <h1 className="font-display text-4xl font-medium tracking-tight sm:text-5xl">
+          {t("hero.titleMain")}{" "}
+          <span className="italic text-sand">{t("hero.titleAccent")}</span>
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-offwhite/85">
           {t("hero.subtitle")}

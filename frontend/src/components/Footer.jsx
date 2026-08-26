@@ -1,9 +1,5 @@
 import { useTranslation } from "react-i18next";
-
-const PHONE_DISPLAY = "+1 (970) 948-2429";
-const WHATSAPP_NUMBER = "19709482429";
-const EMAIL = "lawn&garden@alpine.com";
-const INSTAGRAM_HANDLE = "alpinegardener";
+import { PHONE_DISPLAY, WHATSAPP_NUMBER, EMAIL, INSTAGRAM_HANDLE } from "../constants";
 
 function InstagramIcon() {
   return (
@@ -26,80 +22,75 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-forest/10 bg-forest text-offwhite/80">
-      <div className="mx-auto grid max-w-5xl gap-10 px-6 py-14 sm:grid-cols-3">
-        <div>
-          <p className="text-lg font-semibold text-offwhite">Alpine Garden & Lawn Services</p>
-          <p className="mt-3 text-sm">{t("footer.tagline")}</p>
+    <footer className="bg-ink text-cream/72">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 sm:px-10 sm:grid-cols-4 lg:px-14">
+        <div className="flex flex-col gap-3 sm:col-span-1">
+          <span className="font-display text-2xl text-cream">Alpine Garden &amp; Lawn</span>
+          <p className="max-w-[26ch] font-sans text-[13px] leading-relaxed">{t("footer.tagline")}</p>
         </div>
 
-        <div>
-          <p className="text-sm font-semibold uppercase tracking-wide text-offwhite/50">
-            {t("footer.linksTitle")}
-          </p>
-          <ul className="mt-3 space-y-2 text-sm">
-            <li>
-              <a href="#services" className="transition-colors hover:text-offwhite">
-                {t("nav.services")}
-              </a>
-            </li>
-            <li>
-              <a href="#gallery" className="transition-colors hover:text-offwhite">
-                {t("nav.gallery")}
-              </a>
-            </li>
-            <li>
-              <a href="#quote" className="transition-colors hover:text-offwhite">
-                {t("nav.quote")}
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="transition-colors hover:text-offwhite">
-                {t("nav.contact")}
-              </a>
-            </li>
-          </ul>
+        <div className="flex flex-col gap-2 font-sans text-[13.5px]">
+          <span className="mb-1 font-mono text-[10px] font-medium uppercase tracking-[0.14em] text-cream/45">
+            {t("footer.servicesTitle")}
+          </span>
+          <a href="#services" className="transition-colors hover:text-cream">
+            {t("nav.services")}
+          </a>
+          <a href="#work" className="transition-colors hover:text-cream">
+            {t("nav.work")}
+          </a>
+          <a href="#pricing" className="transition-colors hover:text-cream">
+            {t("nav.pricing")}
+          </a>
+          <a href="#quote" className="transition-colors hover:text-cream">
+            {t("nav.quote")}
+          </a>
         </div>
 
-        <div>
-          <p className="text-sm font-semibold uppercase tracking-wide text-offwhite/50">
+        <div className="flex flex-col gap-2 font-sans text-[13.5px]">
+          <span className="mb-1 font-mono text-[10px] font-medium uppercase tracking-[0.14em] text-cream/45">
             {t("footer.contactTitle")}
-          </p>
-          <ul className="mt-3 space-y-2 text-sm">
-            <li>
-              <a href={`mailto:${EMAIL}`} className="break-all transition-colors hover:text-offwhite">
-                {EMAIL}
-              </a>
-            </li>
-            <li>{t("footer.location")}</li>
-          </ul>
+          </span>
+          <a href={`mailto:${EMAIL}`} className="break-all transition-colors hover:text-cream">
+            {EMAIL}
+          </a>
+          <span>{t("footer.location")}</span>
+          <span>{t("footer.hours")}</span>
 
-          <p className="mt-5 text-sm font-semibold uppercase tracking-wide text-offwhite/50">
+          <span className="mb-1 mt-4 font-mono text-[10px] font-medium uppercase tracking-[0.14em] text-cream/45">
             {t("footer.followTitle")}
-          </p>
-          <div className="mt-3 flex flex-col gap-2">
-            <a
-              href={`https://instagram.com/${INSTAGRAM_HANDLE}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm transition-colors hover:text-offwhite"
-            >
-              <InstagramIcon />@{INSTAGRAM_HANDLE}
-            </a>
-            <a
-              href={`https://wa.me/${WHATSAPP_NUMBER}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm transition-colors hover:text-offwhite"
-            >
-              <WhatsAppIcon />
-              {PHONE_DISPLAY}
-            </a>
-          </div>
+          </span>
+          <a
+            href={`https://instagram.com/${INSTAGRAM_HANDLE}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 transition-colors hover:text-cream"
+          >
+            <InstagramIcon />@{INSTAGRAM_HANDLE}
+          </a>
+          <a
+            href={`https://wa.me/${WHATSAPP_NUMBER}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 transition-colors hover:text-cream"
+          >
+            <WhatsAppIcon />
+            {PHONE_DISPLAY}
+          </a>
+        </div>
+
+        <div className="flex flex-col gap-2 font-sans text-[13.5px] leading-relaxed">
+          <span className="mb-1 font-mono text-[10px] font-medium uppercase tracking-[0.14em] text-cream/45">
+            {t("footer.areaTitle")}
+          </span>
+          <span>{t("footer.areaText")}</span>
+          <span className="mt-3 font-mono text-[11.5px] text-cream/40">
+            © {year} Alpine Garden &amp; Lawn
+          </span>
         </div>
       </div>
 
-      <div className="border-t border-offwhite/10 px-6 py-6 text-center text-sm">
+      <div className="border-t border-cream/10 px-6 py-6 text-center font-sans text-sm">
         © {year} bRuno´s - {t("footer.rights")}
       </div>
     </footer>

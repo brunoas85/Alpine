@@ -2,16 +2,14 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
 import AnimatedLogo from "./AnimatedLogo";
+import { PHONE_DISPLAY, PHONE_TEL } from "../constants";
 
 const NAV_LINKS = [
   { href: "#services", key: "nav.services" },
-  { href: "#about", key: "nav.about" },
-  { href: "#gardening", key: "nav.gardening" },
-  { href: "#indoor-gardening", key: "nav.indoorGardening" },
-  { href: "#photo-gallery", key: "nav.photoGallery" },
-  { href: "#gallery", key: "nav.gallery" },
-  { href: "#blog", key: "nav.blog" },
-  { href: "#contact", key: "nav.contact" },
+  { href: "#work", key: "nav.work" },
+  { href: "#process", key: "nav.process" },
+  { href: "#pricing", key: "nav.pricing" },
+  { href: "#area", key: "nav.area" },
 ];
 
 function MenuIcon({ open }) {
@@ -41,29 +39,35 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-10 bg-offwhite/95 backdrop-blur">
-      <div className="mx-auto flex max-w-5xl items-center justify-between gap-2 px-4 py-1 sm:px-6">
+    <header className="sticky top-0 z-10 border-b border-ink/10 bg-cream/95 backdrop-blur">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-2 px-4 py-1 sm:px-6">
         <a href="#top" className="shrink-0 -ml-2 sm:-ml-[100px]">
           <AnimatedLogo className="h-14 lg:h-[110px]" />
         </a>
 
-        <nav className="hidden items-center gap-4 text-sm font-medium text-gray-700 lg:flex xl:gap-6">
+        <nav className="hidden items-center gap-4 font-sans text-sm font-normal lg:flex xl:gap-7">
           {NAV_LINKS.map(({ href, key }) => (
             <a
               key={href}
               href={href}
-              className="group relative whitespace-nowrap py-1 transition-colors duration-200 hover:text-forest"
+              className="group relative whitespace-nowrap py-1 transition-colors duration-200 hover:text-terracotta"
             >
               {t(key)}
-              <span className="absolute inset-x-0 -bottom-0.5 h-0.5 origin-center scale-x-0 bg-forest transition-transform duration-200 ease-out group-hover:scale-x-100" />
+              <span className="absolute inset-x-0 -bottom-0.5 h-0.5 origin-center scale-x-0 bg-terracotta transition-transform duration-200 ease-out group-hover:scale-x-100" />
             </a>
           ))}
         </nav>
 
         <div className="flex shrink-0 items-center gap-2 sm:gap-4">
           <a
+            href={`tel:${PHONE_TEL}`}
+            className="hidden whitespace-nowrap font-sans text-sm font-medium text-ink sm:inline"
+          >
+            {PHONE_DISPLAY}
+          </a>
+          <a
             href="#quote"
-            className="whitespace-nowrap rounded-full bg-forest px-3 py-1.5 text-xs font-semibold text-offwhite transition-colors hover:bg-forest/90 sm:px-4 sm:py-2 sm:text-sm"
+            className="whitespace-nowrap rounded-sm bg-forest px-3 py-1.5 font-sans text-xs font-medium text-cream transition-colors hover:bg-ink sm:px-4 sm:py-2 sm:text-sm"
           >
             {t("nav.quote")}
           </a>
@@ -73,7 +77,7 @@ export default function Header() {
             onClick={() => setMenuOpen((open) => !open)}
             aria-expanded={menuOpen}
             aria-label={t("nav.menuLabel")}
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-forest/20 text-forest lg:hidden"
+            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-ink/20 text-ink lg:hidden"
           >
             <MenuIcon open={menuOpen} />
           </button>
@@ -81,8 +85,8 @@ export default function Header() {
       </div>
 
       {menuOpen && (
-        <nav className="border-t border-forest/10 bg-offwhite px-4 py-3 lg:hidden">
-          <ul className="flex flex-col gap-1 text-sm font-medium text-gray-700">
+        <nav className="border-t border-ink/10 bg-cream px-4 py-3 lg:hidden">
+          <ul className="flex flex-col gap-1 font-sans text-sm">
             {NAV_LINKS.map(({ href, key }) => (
               <li key={href}>
                 <a
@@ -94,6 +98,11 @@ export default function Header() {
                 </a>
               </li>
             ))}
+            <li>
+              <a href={`tel:${PHONE_TEL}`} className="block rounded-lg px-3 py-2 font-medium">
+                {PHONE_DISPLAY}
+              </a>
+            </li>
           </ul>
         </nav>
       )}

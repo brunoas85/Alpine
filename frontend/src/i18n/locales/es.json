@@ -1,131 +1,170 @@
 {
   "nav": {
     "services": "Servicios",
-    "about": "Nosotros",
-    "gardening": "Jardinería",
-    "indoorGardening": "Interior",
-    "photoGallery": "Galería",
-    "gallery": "Antes y Después",
-    "blog": "Blog",
+    "work": "Trabajos",
+    "process": "Cómo trabajamos",
+    "pricing": "Precios",
+    "area": "Zona",
     "quote": "Cotizar",
-    "contact": "Contacto",
     "menuLabel": "Menú"
   },
   "hero": {
-    "titleMain": "Paisajismo que respeta el ritmo de",
-    "titleAccent": "la naturaleza",
-    "subtitle": "Mantenimiento de césped estacional, podas y diseño de jardines para hogares de la región.",
-    "cta": "Solicitar Cotización Gratis"
+    "eyebrow": "Desde 2014 · Jardinería y mantenimiento",
+    "titleMain": "Un jardín cuidado todo el año,",
+    "titleAccent": "sin que tengas que pensarlo.",
+    "subtitle": "Corte, poda, riego y diseño de exteriores para viviendas y comunidades. Mismo equipo en cada visita, presupuesto cerrado antes de empezar.",
+    "ctaPrimary": "Presupuesto gratis en 24 h",
+    "ctaSecondary": "Ver trabajos",
+    "stat1Value": "180+",
+    "stat1Label": "jardines en mantenimiento",
+    "stat2Value": "4,9",
+    "stat2Label": "de 5 en reseñas locales",
+    "stat3Value": "10",
+    "stat3Label": "años en el valle"
   },
   "services": {
-    "title": "Nuestros Servicios",
-    "mowing": {
-      "title": "Corte de Césped",
-      "description": "Corte y bordeado regular para mantener tu césped saludable durante primavera y verano."
-    },
-    "pruning": {
-      "title": "Poda y Recorte",
-      "description": "Poda estructural de árboles y arbustos, programada según la estación correcta."
-    },
-    "beds": {
-      "title": "Diseño de Canteros",
-      "description": "Canteros y bordes personalizados diseñados para tu espacio exterior."
-    },
-    "winter": {
-      "title": "Preparación para el Invierno",
-      "description": "Limpieza de hojas, cobertura y preparación para proteger tu jardín durante el invierno."
-    }
-  },
-  "about": {
-    "title": "Sobre Nosotros",
-    "body": "Alpine Garden & Lawn Services es un equipo de jardineros locales que cuida céspedes y jardines como si fueran propios. Trabajamos según la estación del año — no con un calendario genérico — para que cada visita haga exactamente lo que tu jardín necesita, desde la limpieza de primavera hasta la preparación para el invierno.",
-    "badge1": "Negocio local",
-    "badge2": "Expertise estacional",
-    "badge3": "Atención bilingüe"
-  },
-  "gardening": {
-    "title": "Jardinería",
-    "subtitle": "Cuidado exterior completo, desglosado en lo que tu propiedad realmente necesita.",
+    "eyebrow": "01 — Servicios",
+    "title": "Lo que hacemos",
     "items": {
       "lawnCare": {
+        "num": "01",
         "title": "Programa de Mantenimiento de Césped",
-        "description": "Corte, bordeado y fertilización continua para un césped denso y saludable durante toda la temporada."
-      },
-      "landscapeDesign": {
-        "title": "Diseño y Obra de Jardines",
-        "description": "Canteros, bordes y elementos de paisajismo diseñados e instalados desde cero."
+        "description": "Corte, bordeado y fertilización continua para un césped denso y saludable durante toda la temporada.",
+        "price": "desde $40/visita"
       },
       "pruning": {
-        "title": "Poda y Tala Controlada",
-        "description": "Poda estructural y trabajos de arbolado, programados según la estación de cada especie."
+        "num": "02",
+        "title": "Poda y Recorte de Árboles",
+        "description": "Poda estructural y trabajos de arbolado controlados, programados según la estación de cada especie.",
+        "price": "presupuesto por trabajo"
       },
-      "clearing": {
-        "title": "Desmalezado y Desbroce",
-        "description": "Limpieza de maleza y áreas descuidadas de tu propiedad."
-      },
-      "plantHealth": {
-        "title": "Tratamientos Fitosanitarios",
-        "description": "Diagnóstico y tratamiento de plagas, enfermedades y problemas del suelo."
+      "landscapeDesign": {
+        "num": "03",
+        "title": "Diseño y Obra de Jardines",
+        "description": "Canteros, bordes y elementos de paisajismo diseñados e instalados desde cero.",
+        "price": "proyecto a medida"
       },
       "irrigation": {
+        "num": "04",
         "title": "Riego Automático",
-        "description": "Diseño e instalación de sistemas de riego por aspersión y goteo a medida."
+        "description": "Diseño, instalación y reparación de sistemas de riego por aspersión y goteo a medida.",
+        "price": "desde $380"
+      },
+      "plantHealth": {
+        "num": "05",
+        "title": "Tratamientos Fitosanitarios",
+        "description": "Diagnóstico y tratamiento de plagas, enfermedades y problemas del suelo.",
+        "price": "desde $75"
+      },
+      "winter": {
+        "num": "06",
+        "title": "Preparación y Limpieza Estacional",
+        "description": "Limpieza de hojas, cobertura y tratamientos antes del cambio de estación — reactivación de primavera o preparación de invierno.",
+        "price": "desde $120"
       }
     }
   },
-  "indoorGardening": {
-    "title": "Jardinería Interior",
-    "subtitle": "Llevamos el mismo cuidado adentro, para casas y oficinas.",
-    "items": {
-      "decor": {
-        "title": "Decoración con Plantas de Interior",
-        "description": "Selección y disposición de plantas de interior adaptadas a tu espacio y luz."
-      },
-      "maintenance": {
-        "title": "Mantenimiento de Plantas de Interior",
-        "description": "Riego, poda y control de salud programados para tus plantas de interior."
-      },
-      "advice": {
-        "title": "Asesoramiento en Selección de Plantas",
-        "description": "Te ayudamos a elegir las especies ideales según ambiente, luz y cuidado disponible."
-      },
-      "planters": {
-        "title": "Jardineras y Macetas a Medida",
-        "description": "Búsqueda de macetas y jardineras que combinan con tu estilo interior."
-      }
-    }
-  },
-  "photoGallery": {
-    "title": "Galería",
-    "subtitle": "Un vistazo a nuestro trabajo en el campo."
-  },
-  "blog": {
-    "title": "Recomendaciones",
-    "subtitle": "Consejos estacionales de nuestro equipo para que tu jardín se mantenga saludable.",
-    "posts": {
-      "winterPrep": {
-        "title": "Preparar tu jardín para el invierno",
-        "excerpt": "Las tres cosas que hay que hacer antes de la primera helada — y por qué el momento importa más que el esfuerzo."
-      },
-      "summerWatering": {
-        "title": "Un riego de verano más inteligente",
-        "excerpt": "Cuánto, con qué frecuencia, y el error que mata más céspedes que la sequía."
-      },
-      "pruningTiming": {
-        "title": "Cuándo podar (y cuándo esperar)",
-        "excerpt": "Podar en el momento equivocado te puede costar una temporada de crecimiento. Esta es la ventana correcta para árboles y arbustos."
-      }
-    }
-  },
-  "beforeAfter": {
+  "work": {
+    "eyebrow": "02 — Trabajos",
     "title": "Antes y Después",
-    "subtitle": "Deslizá para ver la transformación de nuestros trabajos.",
+    "dragHint": "Deslizá para comparar",
+    "caseCaption": "Casa en Old Snowmass · 5.400 pies² · renovación completa en tres semanas",
+    "caseLink": "Ver caso",
+    "detail1Caption": "Detalle — poda de seto",
+    "detail2Caption": "Detalle — riego automático instalado",
+    "documentationNote": "Cada trabajo se documenta con fotos antes, durante y después. Te las enviamos al terminar, sin que las pidas.",
     "before": "Antes",
     "after": "Después",
     "sliderLabel": "Deslizar para comparar antes y después",
-    "placeholderNotice": "Preparación de Invierno usa una imagen ilustrativa — pronto sumamos la foto real de ese trabajo."
+    "placeholderNotice": "Preparación Estacional usa una imagen ilustrativa — pronto sumamos la foto real de ese trabajo.",
+    "examples": {
+      "mowing": "Corte de Césped",
+      "beds": "Diseño de Canteros",
+      "winter": "Preparación Estacional"
+    }
+  },
+  "process": {
+    "eyebrow": "03 — Cómo trabajamos",
+    "title": "Cuatro pasos y ninguna sorpresa",
+    "subtitle": "Trabajamos con contrato y precio cerrado. Si algo cambia, lo hablamos antes de tocar tu jardín.",
+    "steps": {
+      "step1": {
+        "num": "1",
+        "title": "Nos escribís",
+        "description": "Contanos qué necesitás y el tamaño aproximado de tu jardín. Respondemos en menos de 24 horas hábiles."
+      },
+      "step2": {
+        "num": "2",
+        "title": "Visitamos tu jardín",
+        "description": "Vemos el terreno, medimos y te decimos qué haría falta y qué no. Sin costo."
+      },
+      "step3": {
+        "num": "3",
+        "title": "Presupuesto cerrado",
+        "description": "Precio por escrito, con materiales y plazos. Lo que se firma es lo que se paga."
+      },
+      "step4": {
+        "num": "4",
+        "title": "Trabajo y seguimiento",
+        "description": "Mismo equipo en cada visita, fotos al terminar y un contacto directo para cualquier cosa."
+      }
+    }
+  },
+  "pricing": {
+    "eyebrow": "04 — Precios",
+    "title": "Planes de mantenimiento",
+    "disclaimer": "Precios orientativos para jardines de hasta 5.000 pies². Presupuesto exacto tras la visita, siempre gratuita.",
+    "chooseCta": "Elegir {{plan}}",
+    "plans": {
+      "basic": {
+        "tag": "Jardín pequeño",
+        "name": "Básico",
+        "price": "$79",
+        "unit": "/ mes",
+        "items": ["Una visita al mes", "Corte y bordes", "Retirada de restos", "Aviso por mensaje"]
+      },
+      "regular": {
+        "tag": "El más elegido",
+        "name": "Regular",
+        "price": "$149",
+        "unit": "/ mes",
+        "items": ["Dos visitas al mes", "Corte, bordes y setos", "Abonado de temporada", "Revisión del riego", "Fotos de cada visita"]
+      },
+      "complete": {
+        "tag": "Jardín grande",
+        "name": "Completo",
+        "price": "$259",
+        "unit": "/ mes",
+        "items": ["Cuatro visitas al mes", "Todo lo del plan Regular", "Poda de arbolado bajo", "Tratamientos fitosanitarios", "Reposición de planta incluida"]
+      }
+    }
+  },
+  "reviews": {
+    "items": {
+      "review1": {
+        "quote": "Llevan dos años con mi jardín y nunca tuve que llamarlos para recordarles nada.",
+        "who": "Marta R. — Old Snowmass"
+      },
+      "review2": {
+        "quote": "Presupuesto claro, empezaron el día que dijeron y dejaron el jardín más limpio que antes.",
+        "who": "Comunidad Ridgeview"
+      },
+      "review3": {
+        "quote": "Arreglaron un riego que otras dos empresas habían dado por perdido.",
+        "who": "Javier P. — Basalt"
+      }
+    }
+  },
+  "area": {
+    "eyebrow": "05 — Zona de servicio",
+    "title": "Trabajamos en todo el valle y alrededores",
+    "subtitle": "Valle de Roaring Fork y zonas cercanas.",
+    "note": "¿No ves tu pueblo? Escribinos igual: si estás a menos de 30 minutos, generalmente podemos ayudarte.",
+    "mapCaption": "Zona de servicio",
+    "towns": ["Aspen", "Snowmass Village", "Basalt", "Carbondale", "Woody Creek", "Old Snowmass", "El Jebel", "Glenwood Springs"]
   },
   "quote": {
+    "eyebrow": "06 — Cotizar",
     "title": "Obtené una Estimación Instantánea",
     "subtitle": "Respondé algunas preguntas y obtené un precio aproximado para tu proyecto.",
     "sizeLabel": "Tamaño aproximado del jardín",
@@ -135,7 +174,7 @@
       "mowing": "Corte de Césped",
       "pruning": "Poda y Recorte",
       "beds": "Diseño de Canteros",
-      "winter": "Preparación de Invierno"
+      "winter": "Preparación Estacional"
     },
     "frequencyLabel": "Frecuencia",
     "frequencyOptions": {
@@ -157,14 +196,19 @@
     "phoneLabel": "Teléfono",
     "messageLabel": "Mensaje",
     "submit": "Enviar Mensaje",
-    "successMessage": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto."
+    "successMessage": "¡Gracias! Recibimos tu mensaje y te contactaremos pronto.",
+    "callUs": "O llamanos",
+    "callHours": "Lunes a viernes, 8:00 – 18:00"
   },
   "footer": {
-    "tagline": "Alpine Garden & Lawn Services — frescura, orden y naturaleza para tu hogar.",
-    "linksTitle": "Enlaces",
+    "tagline": "Jardinería, mantenimiento y diseño de exteriores. Licencia y seguro al día.",
+    "servicesTitle": "Servicios",
     "contactTitle": "Contacto",
+    "areaTitle": "Zona",
     "followTitle": "Seguinos",
     "location": "Aspen, Colorado, EE. UU.",
+    "areaText": "Valle de Roaring Fork, radio de 30 min.",
+    "hours": "Lun–Vie 8:00–18:00",
     "rights": "Todos los derechos reservados."
   }
 }

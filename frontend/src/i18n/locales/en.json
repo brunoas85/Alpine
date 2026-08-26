@@ -1,131 +1,170 @@
 {
   "nav": {
     "services": "Services",
-    "about": "About",
-    "gardening": "Gardening",
-    "indoorGardening": "Indoor",
-    "photoGallery": "Gallery",
-    "gallery": "Before & After",
-    "blog": "Blog",
+    "work": "Our Work",
+    "process": "How We Work",
+    "pricing": "Pricing",
+    "area": "Service Area",
     "quote": "Get a Quote",
-    "contact": "Contact",
     "menuLabel": "Menu"
   },
   "hero": {
-    "titleMain": "Landscaping that respects",
-    "titleAccent": "nature's rhythm",
-    "subtitle": "Seasonal lawn care, pruning, and garden design for homes across the region.",
-    "cta": "Request a Free Quote"
+    "eyebrow": "Since 2014 · Landscaping & maintenance",
+    "titleMain": "A garden cared for all year,",
+    "titleAccent": "without you having to think about it.",
+    "subtitle": "Mowing, pruning, irrigation, and outdoor design for homes and communities. Same crew every visit, fixed quote before we start.",
+    "ctaPrimary": "Free quote in 24h",
+    "ctaSecondary": "See our work",
+    "stat1Value": "180+",
+    "stat1Label": "gardens maintained",
+    "stat2Value": "4.9",
+    "stat2Label": "out of 5 in local reviews",
+    "stat3Value": "10",
+    "stat3Label": "years in the valley"
   },
   "services": {
-    "title": "Our Services",
-    "mowing": {
-      "title": "Lawn Mowing",
-      "description": "Regular mowing and edging to keep your lawn healthy through spring and summer."
-    },
-    "pruning": {
-      "title": "Pruning & Trimming",
-      "description": "Structural pruning for trees and shrubs, timed to the right season."
-    },
-    "beds": {
-      "title": "Garden Bed Design",
-      "description": "Custom flower beds and borders designed to fit your outdoor space."
-    },
-    "winter": {
-      "title": "Winter Prep & Cleanup",
-      "description": "Leaf removal, mulching, and preparation to protect your garden through winter."
-    }
-  },
-  "about": {
-    "title": "About Us",
-    "body": "Alpine Garden & Lawn Services is a team of local landscapers who care for lawns and gardens the way we'd care for our own. We follow the seasons — not a one-size-fits-all schedule — so every visit does exactly what your yard needs, from spring clean-ups to winter prep.",
-    "badge1": "Locally owned",
-    "badge2": "Seasonal expertise",
-    "badge3": "Bilingual service"
-  },
-  "gardening": {
-    "title": "Gardening & Landscaping",
-    "subtitle": "Full outdoor care, broken down into what your property actually needs.",
+    "eyebrow": "01 — Services",
+    "title": "What we do",
     "items": {
       "lawnCare": {
+        "num": "01",
         "title": "Lawn Care Program",
-        "description": "Ongoing mowing, edging, and feeding to keep your turf dense and healthy all season."
-      },
-      "landscapeDesign": {
-        "title": "Garden Design & Build",
-        "description": "New beds, borders, and hardscape features designed and installed from scratch."
+        "description": "Ongoing mowing, edging, and feeding to keep your turf dense and healthy all season.",
+        "price": "from $40/visit"
       },
       "pruning": {
+        "num": "02",
         "title": "Pruning & Tree Trimming",
-        "description": "Structural pruning and controlled tree work, timed to each species' season."
+        "description": "Structural pruning and controlled tree work, timed to each species' season.",
+        "price": "quoted per job"
       },
-      "clearing": {
-        "title": "Brush Clearing",
-        "description": "Overgrowth and weed clearing to reclaim neglected areas of your property."
-      },
-      "plantHealth": {
-        "title": "Plant Health Treatments",
-        "description": "Diagnosis and treatment for pests, disease, and soil issues."
+      "landscapeDesign": {
+        "num": "03",
+        "title": "Garden Design & Build",
+        "description": "New beds, borders, and hardscape features designed and installed from scratch.",
+        "price": "custom project"
       },
       "irrigation": {
+        "num": "04",
         "title": "Automatic Irrigation",
-        "description": "Design and installation of sprinkler and drip systems tuned to your landscape."
+        "description": "Design, installation, and repair of sprinkler and drip systems tuned to your landscape.",
+        "price": "from $380"
+      },
+      "plantHealth": {
+        "num": "05",
+        "title": "Plant Health Treatments",
+        "description": "Diagnosis and treatment for pests, disease, and soil issues.",
+        "price": "from $75"
+      },
+      "winter": {
+        "num": "06",
+        "title": "Seasonal Prep & Cleanup",
+        "description": "Leaf removal, mulching, and treatments before the season turns — spring wake-up or winter prep.",
+        "price": "from $120"
       }
     }
   },
-  "indoorGardening": {
-    "title": "Indoor Plants",
-    "subtitle": "Bringing the same care indoors, for homes and offices.",
-    "items": {
-      "decor": {
-        "title": "Interior Plant Styling",
-        "description": "Curated indoor greenery selected and arranged to fit your space and light."
-      },
-      "maintenance": {
-        "title": "Indoor Plant Care",
-        "description": "Scheduled watering, pruning, and health checks for your indoor plants."
-      },
-      "advice": {
-        "title": "Plant Selection Advice",
-        "description": "Guidance on the right species for your rooms, light levels, and care routine."
-      },
-      "planters": {
-        "title": "Custom Planters",
-        "description": "Planter and pot sourcing to match your interior style."
-      }
-    }
-  },
-  "photoGallery": {
-    "title": "Gallery",
-    "subtitle": "A look at our work in the field."
-  },
-  "blog": {
-    "title": "Tips & Recommendations",
-    "subtitle": "Seasonal advice from our crew to keep your garden thriving.",
-    "posts": {
-      "winterPrep": {
-        "title": "Getting Your Garden Ready for Winter",
-        "excerpt": "The three things to do before the first frost hits — and why timing matters more than effort."
-      },
-      "summerWatering": {
-        "title": "A Smarter Summer Watering Schedule",
-        "excerpt": "How much, how often, and the mistake that quietly kills more lawns than drought does."
-      },
-      "pruningTiming": {
-        "title": "When to Prune (and When to Wait)",
-        "excerpt": "Pruning at the wrong time can cost you a season of growth. Here's the right window for trees and shrubs."
-      }
-    }
-  },
-  "beforeAfter": {
+  "work": {
+    "eyebrow": "02 — Our Work",
     "title": "Before & After",
-    "subtitle": "Drag to see the transformation on our projects.",
+    "dragHint": "Drag to compare",
+    "caseCaption": "Home in Old Snowmass · 5,400 sq ft · full renovation over three weeks",
+    "caseLink": "See the case",
+    "detail1Caption": "Detail — hedge trimming",
+    "detail2Caption": "Detail — automatic irrigation installed",
+    "documentationNote": "Every job is documented with before, during, and after photos. We send them once we're done — you don't have to ask.",
     "before": "Before",
     "after": "After",
     "sliderLabel": "Drag to compare before and after",
-    "placeholderNotice": "Winter Prep uses an illustrative image — the real photo of that job is coming soon."
+    "placeholderNotice": "Seasonal Prep uses an illustrative image — the real photo of that job is coming soon.",
+    "examples": {
+      "mowing": "Lawn Mowing",
+      "beds": "Garden Bed Design",
+      "winter": "Seasonal Prep"
+    }
+  },
+  "process": {
+    "eyebrow": "03 — How We Work",
+    "title": "Four steps, no surprises",
+    "subtitle": "We work with a contract and a fixed price. If anything changes, we talk before we touch your garden.",
+    "steps": {
+      "step1": {
+        "num": "1",
+        "title": "You reach out",
+        "description": "Tell us what you need and the approximate size of your yard. We reply within 24 business hours."
+      },
+      "step2": {
+        "num": "2",
+        "title": "We visit your yard",
+        "description": "We look at the terrain, measure, and tell you what it needs — and what it doesn't. No cost."
+      },
+      "step3": {
+        "num": "3",
+        "title": "Fixed quote",
+        "description": "A written price, with materials and timeline. What you sign is what you pay."
+      },
+      "step4": {
+        "num": "4",
+        "title": "Work & follow-up",
+        "description": "Same crew on every visit, photos when we're done, and a direct contact for anything you need."
+      }
+    }
+  },
+  "pricing": {
+    "eyebrow": "04 — Pricing",
+    "title": "Maintenance plans",
+    "disclaimer": "Ballpark prices for yards up to 5,000 sq ft. Exact quote after the visit, always free.",
+    "chooseCta": "Choose {{plan}}",
+    "plans": {
+      "basic": {
+        "tag": "Small yard",
+        "name": "Basic",
+        "price": "$79",
+        "unit": "/ month",
+        "items": ["One visit a month", "Mowing and edging", "Debris removal", "Text message reminders"]
+      },
+      "regular": {
+        "tag": "Most chosen",
+        "name": "Regular",
+        "price": "$149",
+        "unit": "/ month",
+        "items": ["Two visits a month", "Mowing, edging, and hedges", "Seasonal feeding", "Irrigation check-up", "Photos of every visit"]
+      },
+      "complete": {
+        "tag": "Large yard",
+        "name": "Complete",
+        "price": "$259",
+        "unit": "/ month",
+        "items": ["Four visits a month", "Everything in Regular", "Low tree pruning", "Plant health treatments", "Plant replacement included"]
+      }
+    }
+  },
+  "reviews": {
+    "items": {
+      "review1": {
+        "quote": "Two years with them and I've never had to call to remind them of anything.",
+        "who": "Marta R. — Old Snowmass"
+      },
+      "review2": {
+        "quote": "Clear quote, they started the day they said they would, and left the yard cleaner than before.",
+        "who": "Ridgeview Community"
+      },
+      "review3": {
+        "quote": "They fixed a sprinkler system two other companies had given up on.",
+        "who": "Javier P. — Basalt"
+      }
+    }
+  },
+  "area": {
+    "eyebrow": "05 — Service Area",
+    "title": "We work throughout the valley and nearby",
+    "subtitle": "Roaring Fork Valley and surrounding areas.",
+    "note": "Don't see your town? Reach out anyway — if you're within 30 minutes, we can usually help.",
+    "mapCaption": "Service area",
+    "towns": ["Aspen", "Snowmass Village", "Basalt", "Carbondale", "Woody Creek", "Old Snowmass", "El Jebel", "Glenwood Springs"]
   },
   "quote": {
+    "eyebrow": "06 — Get a Quote",
     "title": "Get an Instant Estimate",
     "subtitle": "Answer a few questions and get a ballpark price for your project.",
     "sizeLabel": "Approximate garden size",
@@ -135,7 +174,7 @@
       "mowing": "Lawn Mowing",
       "pruning": "Pruning & Trimming",
       "beds": "Garden Bed Design",
-      "winter": "Winter Prep"
+      "winter": "Seasonal Prep"
     },
     "frequencyLabel": "Frequency",
     "frequencyOptions": {
@@ -157,14 +196,19 @@
     "phoneLabel": "Phone",
     "messageLabel": "Message",
     "submit": "Send Message",
-    "successMessage": "Thanks! We received your message and will reach out soon."
+    "successMessage": "Thanks! We received your message and will reach out soon.",
+    "callUs": "Or call us",
+    "callHours": "Monday to Friday, 8:00 AM – 6:00 PM"
   },
   "footer": {
-    "tagline": "Alpine Garden & Lawn Services — freshness, order, and nature for your home.",
-    "linksTitle": "Links",
+    "tagline": "Landscaping, maintenance, and outdoor design. Licensed and insured.",
+    "servicesTitle": "Services",
     "contactTitle": "Contact",
+    "areaTitle": "Area",
     "followTitle": "Follow us",
     "location": "Aspen, Colorado, USA",
+    "areaText": "Roaring Fork Valley, 30 min radius.",
+    "hours": "Mon–Fri 8:00 AM–6:00 PM",
     "rights": "All rights reserved."
   }
 }
